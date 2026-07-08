@@ -28,9 +28,9 @@ export default function Fotos() {
       accent: "#007cc2",
       icon: Camera,
       image: "/images/decorative/alfid-2018.webp",
-      photosLink: "https://drive.google.com/file/d/17AQ_iR-9aRIL88psGEIY0lOzvACfVHY6/view?usp=drive_link",
+      photosLink: "https://drive.google.com/drive/folders/1mQqrrrgb-EGNubF46eBH2a-ezMKbYhxI?usp=sharing",
       bookLink: {
-        url: "https://drive.google.com/drive/folders/1P4mFzEQ3KX3ZdYfz1way1xtUIriku5me",
+        url: "https://drive.google.com/file/d/1ndEUO8TtG_qKF8zvOggalmJvBQr6GhDn/view?usp=drive_link",
         label: {
           pt: "Caderno de Resumos",
           es: "Cuaderno de Resúmenes"
