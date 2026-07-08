@@ -1,0 +1,8 @@
+{
+  "name": "Remix: 5º Congresso da ALFiD",
+  "description": "5º Congresso da Associação Latina de Filosofia do Esporte (ALFiD)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
