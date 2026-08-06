@@ -121,7 +121,7 @@ export const content = {
     },
     registration_cta: {
       title: { pt: "inscrições abertas", es: "inscripciones abiertas" },
-      description: { pt: "Garanta agora sua participação no 5º Congresso da ALFiD. As vagas são limitadas e o 1º lote já está disponível.", es: "Asegure ahora su participación en el 5º Congreso de la ALFiD. Las plazas son limitadas y el primer lote ya está disponible." },
+      description: { pt: "Garanta agora sua participação no 5º Congresso da ALFiD. As inscrições foram prorrogadas até 10/8.", es: "Asegure ahora su participación en el 5º Congreso de la ALFiD. Las plazas son limitadas y el primer lote ya está disponible." },
       button: { pt: "ir para inscrições", es: "ir a inscripciones" },
       international_title: { pt: "Inscripción para personas que no residen en Brasil", es: "Inscripción para personas que no residen en Brasil" },
       international_description: { pt: "Rellene el formulario con sus datos. El pago se realizará el día del evento, en efectivo.", es: "Rellene el formulario con sus datos. El pago se realizará el día del evento, en efectivo." },
@@ -226,18 +226,20 @@ export const content = {
         day: "15",
         weekday: { pt: "Sex", es: "Vie" },
         monthYear: { pt: "Maio, 2026", es: "Mayo, 2026" },
-        title: { pt: "Divulgação dos resultados e notificação de aceite", es: "Divulgación de resultados y notificación de aceptación" }
+        title: { pt: "Divulgação dos resultados e notificação de aceite", es: "Divulgación de resultados y notificación de aceptación" },
+        expired: true
       },
       {
         day: "30",
         weekday: { pt: "Sáb", es: "Sáb" },
         monthYear: { pt: "Maio, 2026", es: "Mayo, 2026" },
-        title: { pt: "Prazo final para inscrições com desconto", es: "Fecha límite para inscripciones con descuento" }
+        title: { pt: "Prazo final para inscrições com desconto", es: "Fecha límite para inscripciones con descuento" },
+        expired: true
       },
       {
-        day: "30",
-        weekday: { pt: "Qui", es: "Jue" },
-        monthYear: { pt: "Julho, 2026", es: "Julio, 2026" },
+        day: "10",
+        weekday: { pt: "Seg", es: "Lun" },
+        monthYear: { pt: "Agosto, 2026", es: "Agosto, 2026" },
         title: { pt: "Prazo final para inscrições (ou até o preenchimento das vagas)", es: "Fecha límite para inscripciones (o hasta el límite de vacantes)" }
       },
       {
@@ -432,14 +434,14 @@ export const content = {
         professionalLabel: { pt: "Profissionais", es: "Profesionales" }
       },
       batch2: {
-        label: { pt: "Valores até 30 de julho", es: "Valores hasta el 30 de julio" },
+        label: { pt: "Valores até 10 de agosto", es: "Valores hasta el 10 de agosto" },
         studentLabel: { pt: "Estudantes e Professores/as de Escola Pública", es: "Estudiantes y Profesores/as de Escuela Pública" },
         professionalLabel: { pt: "Profissionais", es: "Profesionales" }
       }
     },
     cta_section: {
       title: { pt: "faça parte desta edição", es: "sea parte de esta edición" },
-      description: { pt: "Não perca o 1º lote e garanta sua participação — vagas limitadas.", es: "No se pierda el 1º lote y asegure su participación — plazas limitadas." },
+      description: { pt: "Inscrições  prorrogadas até dia 10 de agosto com validade máxima do boleto até dia 12.", es: "Inscripciones prorrogadas hasta el 10 de agosto." },
       button: { pt: "Quero me inscrever", es: "Quiero inscribirme" },
       ticketButton: { pt: "Consultar boleto / 2ª via", es: "Consultar boleto / 2ª vía" },
       link: "https://eefe2.webhostusp.sti.usp.br/inscricoes/alfid2026/index.php",
