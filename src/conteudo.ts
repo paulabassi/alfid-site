@@ -452,52 +452,22 @@ export const content = {
       hideTicketButton: false
     }
   },
-  schedule: {
-    documentTitle: "Programação — 5º Congresso da ALFiD",
-    hero: {
-      title: { pt: "programação", es: "programación" },
-      soon: { pt: "Em breve...", es: "Próximamente..." }
-    },
-    description: { pt: "A programação detalhada do 5º Congresso da ALFiD está sendo finalizada e será divulgada em breve!", es: "¡La programação detalhada do 5º Congresso da ALFiD está sendo finalizada e será divulgada em breve!" },
-    construction: { pt: "Em breve...", es: "Próximamente..." },
-    days: [
-      {
-        date: { pt: "Dia 1 — 15 de Outubro", es: "Día 1 — 15 de Octubre" },
-        events: [
-          {
-            time: "08:30 - 09:30",
-            title: { pt: "Credenciamento e Entrega de Materiais", es: "Acreditación y Entrega de Materiales" },
-            description: { pt: "Recepção dos participantes e retirada de crachás na secretaria do evento.", es: "Recepción de participantes y entrega de credenciales en la secretaría del evento." }
-          },
-          {
-            time: "09:30 - 10:30",
-            title: { pt: "Abertura Oficial", es: "Apertura Oficial" },
-            description: { pt: "Mesa de abertura com autoridades acadêmicas e representantes da ALFiD.", es: "Mesa de apertura con autoridades académicas y representantes de la ALFiD." }
-          },
-          {
-            time: "10:30 - 12:00",
-            title: { pt: "Conferência de Abertura", es: "Conferencia de Apertura" },
-            description: { pt: "Palestra com convidado especial abordando os rumos da Filosofia do Esporte.", es: "Conferencia con invitado especial abordando los rumbos de la Filosofía del Deporte." }
-          }
-        ]
-      },
-      {
-        date: { pt: "Dia 2 — 16 de Outubro", es: "Día 2 — 16 de Octubre" },
-        events: [
-          {
-            time: "09:00 - 12:00",
-            title: { pt: "Mesas Redondas e Simpósios Temáticos", es: "Mesas Redondas y Simposios Temáticos" },
-            description: { pt: "Apresentação de trabalhos e discussões em grupos temáticos simultâneos.", es: "Presentación de trabalhos e discussões em grupos temáticos simultáneos." }
-          },
-          {
-            time: "14:00 - 16:00",
-            title: { pt: "Sessões de Comunicações Orais", es: "Sesiones de Comunicaciones Orales" },
-            description: { pt: "Apresentação de pesquisas selecionadas pelo comitê científico.", es: "Presentación de investigaciones seleccionadas por el comité científico." }
-          }
-        ]
-      }
-    ]
+ schedule: {
+  documentTitle: "Programação — 5º Congresso da ALFiD",
+  hero: {
+    title: { pt: "programação", es: "programación" },
+    soon: { pt: "", es: "" }
   },
+  description: {
+    pt: "",
+    es: ""
+  },
+  construction: {
+    pt: "",
+    es: ""
+  },
+  days: []
+},
   organization: {
     documentTitle: "Organização — 5º Congresso da ALFiD",
     hero: {
