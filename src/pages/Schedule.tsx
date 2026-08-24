@@ -136,9 +136,17 @@ export default function Schedule() {
             </div>
           </motion.div>
 
-          <p className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-normal max-w-2xl leading-[1.65] tracking-normal">
-            {t(content.schedule.description.pt, content.schedule.description.es)}
-          </p>
+         <a
+  href="https://drive.google.com/file/d/1N7aruyGr39dcCwYe5MvvhXK75dsh4qFM/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors"
+>
+  {t(
+    'Clique aqui para conferir a programação completa',
+    'Haz clic aquí para consultar la programación completa'
+  )}
+</a>
         </motion.div>
       )}
     </motion.div>
