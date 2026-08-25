@@ -143,8 +143,8 @@ export default function Schedule() {
   className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors"
 >
   {t(
-    'Clique aqui para conferir a programação completa',
-    'Haz clic aquí para consultar la programación completa'
+    '🗓️ Clique aqui para conferir a programação completa',
+    '🗓️ Haz clic aquí para consultar la programación completa'
   )}
 </a>
           <a href="https://drive.google.com/file/d/1i1OzndZLiNl7eNFEt7rDh8zwVUiOKu8N/view?usp=sharing"
@@ -153,8 +153,8 @@ export default function Schedule() {
   className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors mt-4"
 >
   {t(
-    'Clique aqui para acessar o Livro de Resumos',
-    'Haz clic aquí para acceder al Libro de Resúmenes'
+    '📖 Clique aqui para acessar o Livro de Resumos',
+    '📖 Haz clic aquí para acceder al Libro de Resúmenes'
   )}
 </a>
         </motion.div>
