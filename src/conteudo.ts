@@ -42,14 +42,14 @@ export const content = {
   },
   navbar: {
     home: { pt: "Início", es: "Inicio" },
-    congress: { pt: "O Congresso", es: "El Congreso" },
+    congress: { pt: "O Congresso", es: "El Con greso" },
     dates: { pt: "Datas", es: "Fechas" },
     submission: { pt: "Submissão", es: "Envío" },
     registration: { pt: "Inscrição", es: "Inscripción" },
     schedule: { pt: "Programação", es: "Programación" },
     organization: { pt: "Organização", es: "Organización" },
     alfid: { pt: "A Associação", es: "La Asociación" },
-    speakers: { pt: "Palestrantes", es: "Ponentes" },
+    speakers: { pt: "Participações confirmadas", es: "Participaciones confirmadas" },
     photos: { pt: "Fotos", es: "Fotos" },
     logoLine1: { pt: "Associação Latina", es: "Asociación Latina" },
     logoLine2: { pt: "de Filosofia do Esporte", es: "de Filosofía del Deporte" }
@@ -548,19 +548,10 @@ export const content = {
   speakers: {
     documentTitle: "Palestrantes — 5º Congresso da ALFiD",
     hero: {
-      title: { pt: "palestrantes", es: "ponentes" }
+      title: { pt: "participações confirmadas", es: "participaciones confirmadas" }
     },
     list: [
-      {
-        name: "Prof. Dr. Alberto Reinaldo Reppold Filho",
-        bio: {
-          pt: "Professor Visitante Sênior da Universidade Federal de Ciências da Saúde de Porto Alegre e Professor Titular aposentado da ESEFID-UFRGS. Pesquisador nas áreas de políticas públicas do esporte, governança esportiva, gestão de projetos sociais, atividade física e ética na pesquisa, com ampla atuação nacional e internacional na formação de profissionais e pesquisadores.",
-          es: "Profesor Visitante Senior de la Universidade Federal de Ciências da Saúde de Porto Alegre y Profesor Titular jubilado de la ESEFID-UFRGS. Investigador en las áreas de políticas públicas del deporte, gobernanza deportiva, gestión de proyectos sociales, actividad física y ética en la investigación, con amplia actuación nacional e internacional en la formación de profesionales e investigadores."
-        },
-        website: "http://lattes.cnpq.br/1473692434258851",
-        image: "/images/palestrantes/alberto-filho.webp"
-      },
-      {
+           {
         name: "Prof. Alexandre Meyer Luz",
         bio: {
           pt: "Professor associado do Departamento de Filosofia da UFSC. Tem como área de pesquisa questões de Epistemologia Contemporânea e Filosofia do esporte, nesta última especialmente o tema lutas. Orientador de mestrado e Doutorado no PPGFilosofia da UFSC, do qual foi coordenador.",
