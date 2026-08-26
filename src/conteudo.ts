@@ -1,7 +1,7 @@
 export const content = {
   settings: {
     // Global Feature Toggles
-    registrationOpen: false,
+    registrationOpen: true,
     submissionOpen: false,
 
     // Home Page Toggles
@@ -22,9 +22,9 @@ export const content = {
     showSpeakersFloatingDots: true,
 
     // Registration Page Toggles
-    showRegistrationFeesSection: true,
-    showRegistrationCtaSection: true,
-    showRegistrationInternationalSection: true,
+    showRegistrationFeesSection: false,
+    showRegistrationCtaSection: false,
+    showRegistrationInternationalSection: false,
 
     // Submission Page Toggles
     showSubmissionThemesSection: true,
@@ -421,12 +421,18 @@ export const content = {
     }
   },
   registration: {
-    documentTitle: "Inscrições — 5º Congresso da ALFiD",
-    hero: {
-      title: { pt: "inscrições", es: "inscripciones" },
-      description: { pt: "Garanta sua participação no 5º Congresso da ALFiD.", es: "Asegure su participación en el 5º Congreso de la ALFiD." }
+  documentTitle: "Inscrições — 5º Congresso da ALFiD",
+  hero: {
+    title: { 
+      pt: "inscrições encerradas", 
+      es: "inscripciones cerradas" 
     },
-    fees: {
+    description: { 
+      pt: "As inscrições para o 5º Congresso da ALFiD estão encerradas.", 
+      es: "Las inscripciones para el 5º Congreso de la ALFiD están cerradas." 
+    }
+  },
+  fees: {
       title: { pt: "taxa de inscrição", es: "tasa de inscripción" },
       batch1: {
         label: { pt: "Valores até 30 de maio", es: "Valores hasta el 30 de mayo" },
