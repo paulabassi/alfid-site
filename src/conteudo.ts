@@ -15,7 +15,7 @@ export const content = {
     showHomeCardRegistration: false,
     showHomeCardSubmissions: false,
     showHomeCardSchedule: true,
-    showHomeCardDates: true,
+    showHomeCardDates: false,
     showHomeCardAlfid: true,
 
     // Speakers Page Toggles
@@ -75,8 +75,8 @@ export const content = {
     },
     explore: {
       notice: { 
-        pt: "O prazo para submissão de resumos foi encerrado. As inscrições para participação já estão abertas — inscreva-se agora.", 
-        es: "El plazo para el envío de resúmenes ha finalizado. Las inscripciones para participación ya están abiertas — inscríbase ahora." 
+        pt: "O prazo para submissão de resumos foi encerrado.", 
+        es: "El plazo para el envío de resúmenes ha finalizado." 
       },
       title: { pt: "explore o congresso", es: "explore el congreso" },
       description: { pt: "Navegue pelas seções do 5º Congresso da ALFiD e fique por dentro de todas as informações necessárias para sua participação.", es: "Navegue por las secciones del 5º Congreso de la ALFiD y manténgase informado de toda la información necesaria para su participación." }
