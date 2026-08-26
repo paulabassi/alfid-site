@@ -1,19 +1,19 @@
 export const content = {
   settings: {
     // Global Feature Toggles
-    registrationOpen: true,
-    submissionOpen: true,
+    registrationOpen: false,
+    submissionOpen: false,
 
     // Home Page Toggles
-    showNoticeBanner: true,
+    showNoticeBanner: false,
     showIapsSection: true,
-    showHomeRegistrationCta: true,
-    showHomeInternationalCta: true,
+    showHomeRegistrationCta: false,
+    showHomeInternationalCta: false,
 
     // Home Page Grid Cards Toggles
     showHomeCardCongress: true,
-    showHomeCardRegistration: true,
-    showHomeCardSubmissions: true,
+    showHomeCardRegistration: false,
+    showHomeCardSubmissions: false,
     showHomeCardSchedule: true,
     showHomeCardDates: true,
     showHomeCardAlfid: true,
