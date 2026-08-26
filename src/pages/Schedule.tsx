@@ -157,6 +157,20 @@ export default function Schedule() {
     '📖 Haz clic aquí para acceder al Libro de Resúmenes'
   )}
 </a>
+          <a
+  href={t(
+    'https://drive.google.com/file/d/1cvSyruKx_K8R1NFD3h6CH5tFJEVeiit-/view?usp=sharing',
+    'https://drive.google.com/file/d/1BqRJrI308KDSPxBWMTx8vps_UcFUsvC9/view?usp=sharing'
+  )}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors mt-4"
+>
+  {t(
+    '🍴 Guia Cultural e Gastronômico de São Paulo',
+    '🍴 Guía Cultural y Gastronómica de São Paulo'
+  )}
+</a>
         </motion.div>
       )}
     </motion.div>
