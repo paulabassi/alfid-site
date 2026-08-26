@@ -137,7 +137,7 @@ export default function Schedule() {
           </motion.div>
 
          <a
-  href="https://drive.google.com/file/d/1N7aruyGr39dcCwYe5MvvhXK75dsh4qFM/view?usp=sharing"
+  href="https://drive.google.com/file/d/1KR85bQHkNFmfDeladGY_f3zCjj21e3Es/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors"
@@ -147,7 +147,7 @@ export default function Schedule() {
     '🗓️ Haz clic aquí para consultar la programación completa'
   )}
 </a>
-          <a href="https://drive.google.com/file/d/1i1OzndZLiNl7eNFEt7rDh8zwVUiOKu8N/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1E_TVS1EXsCIdBHeAtoOuK_Iz-kcuqboQ/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="text-[clamp(1rem,1.1vw,1.125rem)] text-gray-600 font-medium max-w-2xl leading-[1.65] tracking-normal underline hover:text-[#1A1A1A] transition-colors mt-4"
